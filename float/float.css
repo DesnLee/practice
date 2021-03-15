@@ -80,8 +80,11 @@ li{
     width: 240px;
     margin-right: 20px;
     float: left;
-    height: 520px;
     background-color: #ddd;
+    text-align: center;
+    line-height: 520px;
+    font-size: 16px;
+    color: #606266;
 }
 
 .bannerarea{
@@ -92,21 +95,30 @@ li{
 }
 .banner{
     background-color: #eee;
-    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 16px;
+    color: #909399;
 }
 
 .bannerad{
     margin-top: 20px;
     background-color: #eee;
-    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    color: #909399;
 }
 
 .ad{
     width: 120px;
     margin-right: 20px;
     float: left;
-    height: 520px;
     background-color: #ccc;
+    text-align: center;
+    line-height: 520px;
+    font-size: 16px;
+    color: #606266;
 }
 main{
     width: 1000px;
@@ -123,6 +135,10 @@ main{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    line-height: 235px;
+    font-size: 16px;
+    color: #fff;
 }
 
 .ClassList > div{
@@ -132,7 +148,6 @@ main{
 
 .ClassList > div > div{
     background-color: #f50;
-    height: 235px;
     width: 235px;
     margin-right: 20px;
     float: left;
