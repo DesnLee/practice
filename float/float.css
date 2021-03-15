@@ -155,9 +155,14 @@ main{
 
 footer{
     background-color: #f0f0f0;
-    margin-top: 30px;
-    font-size: 16px;
     color: #909399;
+    font-size: 16px;
+    margin-top: 30px;
     text-align: center;
     line-height: 60px;
+}
+.footer{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
