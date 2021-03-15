@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+div{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.rainbow {
+    height: 200px;
+    width: 440px;
+    margin: auto;
+    border-radius: 0;
+}
+
+.rainbow > div {
+    background: rgba(240, 48, 48, 1);
+    height: 400px;
+}
+
+.rainbow > div > div {
+    background: rgba(255, 100, 53, 1);
+    height: 370px;
+    margin: 15px;
+}
+
+.rainbow > div > div > div {
+    background: rgba(255, 200, 46, 1);
+    height: 340px;
+    margin: 15px;
+}
+
+.rainbow > div > div > div > div {
+    background: rgba(100, 230, 65, 1);
+    height: 310px;
+    margin: 15px;
+}
+
+.rainbow > div > div > div > div > div {
+    background: rgba(28, 210, 215, 1);
+    height: 280px;
+    margin: 15px;
+}
+
+.rainbow > div > div > div > div > div > div {
+    background: rgba(52, 100, 238, 1);
+    height: 250px;
+    margin: 15px;
+}
+
+.rainbow > div > div > div > div > div > div > div {
+    background: rgba(180, 45, 222, 1);
+    height: 220px;
+    margin: 15px;
+}
+.rainbow > div > div > div > div > div > div > div > div {
+    background: white;
+    height: 190px;
+    margin: 15px;
+}
