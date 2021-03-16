@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f8f8;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+li{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.TopBackground{
+    background: #f2f2f2;
+    transform: translate3d(0, 0, 0);
+}
+
+.TopBar{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    color:#909399;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TopLeft{
+    margin-left: -16px;
+    display: flex;
+}
+
+.TopRight{
+    margin-right: -16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NavBar{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavList{
+    display: flex;
+    font-size: 16px;
+    margin-right: -16px;
+    line-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    margin-left: -10px;
+}
+
+.logo >img{
+    height: 100px;
+    vertical-align:top;
+}
+
+.NavBarBackground{
+    background: #fff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.list{
+    width: 240px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 520px;
+    font-size: 16px;
+    color: #606266;
+}
+
+.bannerarea{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner{
+    background-color: #eee;
+    text-align: center;
+    line-height: 400px;
+    font-size: 16px;
+    color: #909399;
+}
+
+.bannerad{
+    background-color: #eee;
+    text-align: center;
+    line-height: 100px;
+    font-size: 16px;
+    color: #909399;
+}
+
+.ad{
+    width: 120px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 520px;
+    font-size: 16px;
+    color: #606266;
+}
+main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.bannerbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ClassList{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 235px;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.ClassList > ul{
+    margin-right: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ClassList > ul::after{
+    content: "";
+    flex: auto;
+}
+
+.ClassList > ul >li{
+    background-color: #f50;
+    width: 235px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+footer{
+    background-color: #f0f0f0;
+    color: #909399;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
