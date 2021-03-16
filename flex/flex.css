@@ -83,7 +83,7 @@ li{
     color: #606266;
 }
 
-.bannerarea{
+.BannerArea{
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ li{
     color: #909399;
 }
 
-.bannerad{
+.BannerAd{
     background-color: #eee;
     text-align: center;
     line-height: 100px;
@@ -120,7 +120,7 @@ main{
     margin-top: 20px;
 }
 
-.bannerbox{
+.BannerBox{
     display: flex;
     justify-content: space-between;
 }
