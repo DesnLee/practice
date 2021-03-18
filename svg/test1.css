@@ -5,7 +5,7 @@
 }
 
 .content {
-    height: 80px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,8 +60,54 @@ path {
 }
 
 .loading {
-    margin-left: 10px;
+    margin-left: 25px;
+}
+
+span {
     font-size: 16px;
     color: #333;
     font-weight: bold;
+    display: inline-block;
+    animation: word 4s infinite;
+}
+
+.span2 {
+    animation-delay: .2s;
+}
+.span3 {
+    animation-delay: .4s;
+}
+.span4 {
+    animation-delay: .6s;
+}
+.span5 {
+    animation-delay: .8s;
+}
+.span6 {
+    animation-delay: 1s;
+}
+.span7 {
+    animation-delay: 1.2s;
+}
+.span8 {
+    animation-delay: 1.4s;
+}
+.span9 {
+    animation-delay: 1.6s;
+}
+.span10 {
+    animation-delay: 1.8s;
+}
+
+
+@keyframes word {
+    20% {
+        transform: translateY(-8px);
+    }
+    40% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
