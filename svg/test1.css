@@ -60,10 +60,11 @@ path {
 }
 
 .loading {
-    margin-left: 25px;
+    margin-left: 23px;
 }
 
 span {
+    margin-left: -2px;
     font-size: 16px;
     color: #333;
     font-weight: bold;
@@ -101,10 +102,10 @@ span {
 
 
 @keyframes word {
-    20% {
+    15% {
         transform: translateY(-8px);
     }
-    40% {
+    30% {
         transform: translateY(0px);
     }
     100% {
