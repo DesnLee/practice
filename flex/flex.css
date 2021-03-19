@@ -56,7 +56,6 @@ li{
     font-size: 16px;
     margin-right: -16px;
     line-height: 100px;
-    display: flex;
     justify-content: flex-end;
 }
 
@@ -71,7 +70,7 @@ li{
 
 .NavBarBackground{
     background: #fff;
-    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .list{
