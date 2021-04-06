@@ -30,5 +30,6 @@ let change = () => {
         n < profile.length ? change():null
     }, 50)
 }
-
-change()
+setTimeout(()=>
+    change()
+,1000)
