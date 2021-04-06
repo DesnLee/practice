@@ -64,8 +64,8 @@ table {
     #content{
         padding-left: 6vw;
         padding-right: 6vw;
-        margin-top: 44vh;
-        height: 56vh;
+        margin-top: 56vh;
+        height: 44vh;
         overflow: auto;
     }
     .view{
