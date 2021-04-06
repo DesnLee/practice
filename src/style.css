@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+input, button {
+    font-family: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    min-height: 280px;
+    justify-content: center;
+    background: linear-gradient(340deg, rgba(111, 7, 187, 1) 0%, rgba(117, 165, 247, 1) 67%, rgba(0, 212, 255, 1) 100%);;
+}
+
+.titleContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome{
+    font-size: 1.6em;
+    color: #FFF;
+    margin-bottom: 10%;
+
+}
+
+.titleContent span {
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.itemList{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.itemAdd:after{
+    content: "";
+    height: 168px;
+    width: 320px;
+    margin-top: 36px;
+}
+
+.itemList li a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 168px;
+    background-color: #f8f8f8;
+    border-radius: 16px;
+    margin-top: 16px;
+}
+
+.itemList li a p{
+    font-size: 1.6em;
+    color:#2A3E52;
+    font-family: "DIN Black", "PingFang SC","Microsoft YaHei";
+}
+
+.itemList li a span{
+    font-size: 1.2em;
+    margin-top: 16px;
+    color:#424344;
+}
+
+.itemList li a:hover{
+    animation: hover .3s forwards;
+}
+
+.itemList li a:hover span{
+    animation: font .3s forwards;
+}
+.itemList li a:hover p{
+    animation: font .3s forwards;
+}
+
+@keyframes font {
+    from{
+    }
+    to{
+        color: #FFF;
+    }
+}
+
+@keyframes hover {
+    from{
+    }
+    to{
+        box-shadow: 0 6px 16px rgba(117, 165, 247, 0.5);
+        background: linear-gradient(340deg, rgba(117, 165, 247, 1) 0%, rgba(0, 212, 255, 1) 100%);
+        transform: translateY(-6px);
+    }
+}
+
+footer{
+    margin-top: 44px;
+    height: 64px;
+    background-color: #fafafa;
+    text-align: center;
+    line-height: 64px;
+    color:#c0c4cc;
+}
+
+@media  (max-width: 1000px) {
+    .itemList li a p{
+        font-size: 1.4em;
+    }
+
+    .itemList li a span{
+        font-size: 1.1em;
+        margin-top: 8px;
+    }
+
+    .itemList{
+        width: 96vw;
+    }
+
+    .itemList li a{
+        width: 47vw;
+        height: 88px;
+    }
+}
+
+@media  (max-width: 500px) {
+    .welcome{
+        font-size: 1.3em;
+    }
+
+    .titleContent span {
+        font-size: 3em;
+    }
+    .itemList li a{
+        width: 96vw;
+    }
+    .itemList li a p{
+        font-size: 1.4em;
+    }
+
+    .itemList li a span{
+        font-size: 1.1em;
+        margin-top: 8px;
+    }
+}
