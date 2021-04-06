@@ -108,17 +108,6 @@ table {
     color:#424344;
 }
 
-.itemList li a:hover{
-    animation: hover .3s forwards;
-}
-
-.itemList li a:hover span{
-    animation: font .3s forwards;
-}
-.itemList li a:hover p{
-    animation: font .3s forwards;
-}
-
 @keyframes font {
     from{
     }
@@ -146,6 +135,17 @@ footer{
     color:#c0c4cc;
 }
 
+.itemList li a:hover{
+    animation: hover .3s forwards;
+}
+
+.itemList li a:hover span{
+    animation: font .3s forwards;
+}
+.itemList li a:hover p{
+    animation: font .3s forwards;
+}
+
 @media  (max-width: 1000px) {
     .itemList li a p{
         font-size: 1.4em;
@@ -167,6 +167,16 @@ footer{
 }
 
 @media  (max-width: 500px) {
+    .itemList li a:hover{
+        animation: none;
+    }
+
+    .itemList li a:hover span{
+        animation: none;
+    }
+    .itemList li a:hover p{
+        animation: none;
+    }
     .welcome{
         font-size: 1.3em;
     }
