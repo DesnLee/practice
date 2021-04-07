@@ -1,9 +1,9 @@
 
 @font-face {
     font-family: DIN Black;
-    src: url('//desnlee.com/src/DIN-Black.otf'),
-    url('//desnlee.com/src/DIN-Black.otf'),
-    url('//desnlee.com/src/DIN-Black.otf'); /* IE9 */
+    src: url('../../src/DIN-Black.otf'),
+    url('../../src/DIN-Black.otf'),
+    url('../../src/DIN-Black.otf'); /* IE9 */
 }
 
 * {
