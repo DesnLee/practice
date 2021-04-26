@@ -1,3 +1,5 @@
 .DS_Store
 .idea/
 other/
+profile/.cache/
+profile/node_modules/

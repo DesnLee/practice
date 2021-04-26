@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang = "zh-CN">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport"
+          content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+    <link rel = "stylesheet" href = "style.css">
+    <!--    <link rel = "stylesheet" href = "favicon.ico">-->
+    <title>正则表达式校验</title>
+</head>
+<body>
+    <div class = "regexInput">
+        <input id = "regexInput" type = "text" placeholder = "输入正则表达式">
+        <button id = "check">Check it!</button>
+    </div>
+
+    <div class = "exampleInput">
+        <p>待匹配文本（多条用回车分隔）</p>
+        <textarea id = "exampleInput" placeholder = "输入待匹配文本，支持添加多条，用回车分隔"></textarea>
+    </div>
+    <div class = "exampleInput">
+        <p class="resultAlert">匹配结果</p>
+        <textarea disabled id = "resultView"></textarea>
+    </div>
+    <div class = "regexInput">
+        <input id = "changeInput" type = "text" placeholder = "输入替换语句">
+        <button id = "change">Change it!</button>
+    </div>
+    <div class = "exampleInput">
+        <p>替换结果</p>
+        <textarea disabled id = "changeView"></textarea>
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>
